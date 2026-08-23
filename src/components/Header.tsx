@@ -1,7 +1,7 @@
 import React from 'react';
 import { Sparkles, BookOpen, RotateCcw, Globe, Library } from 'lucide-react';
 import { Language } from '../types';
-import jupiterLogo from '../assets/images/logo.jpg';
+import jupiterLogo from '../../logo.png';
 
 interface HeaderProps {
   language: Language;
