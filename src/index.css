@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --jupiter-blue: #0487D9;
+    --jupiter-blue-dark: #0369A1;
+    --jupiter-blue-light: #E0F2FE;
+    --jupiter-blue-tint: #F0F9FF;
+    --neutral-dark: #1E293B;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Hard Shadows for Playful Geometric Design System */
+.shadow-pop-sm {
+  box-shadow: 2px 2px 0px 0px #1E293B;
+}
+
+.shadow-pop {
+  box-shadow: 4px 4px 0px 0px #1E293B;
+}
+
+.shadow-pop-hover {
+  box-shadow: 6px 6px 0px 0px #1E293B;
+}
+
+.shadow-pop-active {
+  box-shadow: 2px 2px 0px 0px #1E293B;
+}
+
+.shadow-pop-lg {
+  box-shadow: 8px 8px 0px 0px #1E293B;
+}
+
+.shadow-pop-blue {
+  box-shadow: 4px 4px 0px 0px #0487D9;
+}
+
+.shadow-pop-blue-lg {
+  box-shadow: 8px 8px 0px 0px #0487D9;
+}
+
+/* Background Patterns */
+.bg-dot-grid {
+  background-image: radial-gradient(#CBD5E1 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+.bg-dot-grid-dense {
+  background-image: radial-gradient(#94A3B8 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+.bg-dot-grid-blue {
+  background-image: radial-gradient(#BAE6FD 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94A3B8;
+  border-radius: 9999px;
+  border: 2px solid #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0487D9;
+}

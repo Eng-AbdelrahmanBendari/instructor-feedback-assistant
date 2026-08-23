@@ -1,0 +1,6 @@
+{
+  "name": "JUPITER Instructor Feedback Assistant",
+  "description": "An intelligent, combination-based feedback assistant for JUPITER instructors to quickly generate, customize, and copy professional student session reports in Arabic and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
